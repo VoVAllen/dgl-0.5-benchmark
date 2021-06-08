@@ -68,17 +68,17 @@ if __name__ == "__main__":
     ctx = mp.get_context("spawn")
     q = ctx.Queue()
     test_list = [
-        main_dgl_arxiv_gat.main,
+        # main_dgl_arxiv_gat.main,
         main_dgl_arxiv_sage.main,
-        main_dgl_citation_gat.main,
+        # main_dgl_citation_gat.main,
         main_dgl_citation_sage.main,
         main_dgl_product_sage.main,
-        main_dgl_proteins_rgcn_for.main,
-        main_dgl_reddit_gat.main,
+        # main_dgl_proteins_rgcn_for.main,
+        # main_dgl_reddit_gat.main,
         main_dgl_reddit_sage.main,
-        main_pyg_arxiv_gat.main,
+        # main_pyg_arxiv_gat.main,
         main_pyg_arxiv_sage.main,
-        main_pyg_citation_gat.main,
+        # main_pyg_citation_gat.main,
         main_pyg_citation_sage.main,
         main_pyg_product_sage.main,
         # main_pyg_proteins_rgcn_for.main, # skip this one since will OOM
