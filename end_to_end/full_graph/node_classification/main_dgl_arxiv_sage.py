@@ -156,6 +156,7 @@ def main():
 
     dataset = DglNodePropPredDataset(name='ogbn-arxiv')
     split_idx = dataset.get_idx_split()
+    print(dataset.num_classes)
 
     g, labels = dataset[0]
     feats = g.ndata['feat']

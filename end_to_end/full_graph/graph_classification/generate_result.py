@@ -1,3 +1,4 @@
+from end_to_end.full_graph.graph_classification import main_dgl_enzymes_gcn_nn
 import main_dgl_enzymes_gcn
 import main_dgl_molhiv_gcn
 import main_dgl_ppa_gcn
@@ -63,6 +64,7 @@ if __name__ == "__main__":
         main_dgl_ppa_gcn.main,
         main_pyg_enzymes_gcn.main,
         main_pyg_molhiv_gcn.main,
+        main_dgl_enzymes_gcn_nn.main,
         # main_pyg_proteins_rgcn_for.main, # skip this one since will OOM
     ]
     ret_dict = {}
