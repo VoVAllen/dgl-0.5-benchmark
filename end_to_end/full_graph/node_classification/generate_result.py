@@ -8,12 +8,12 @@ import main_dgl_product_sage
 import main_dgl_proteins_rgcn_for
 import main_dgl_reddit_gat
 import main_dgl_reddit_sage
-import main_pyg_arxiv_gat
-import main_pyg_arxiv_sage
-import main_pyg_citation_gat
-import main_pyg_citation_sage
-import main_pyg_product_sage
-import main_pyg_proteins_rgcn_for
+# import main_pyg_arxiv_gat
+# import main_pyg_arxiv_sage
+# import main_pyg_citation_gat
+# import main_pyg_citation_sage
+# import main_pyg_product_sage
+# import main_pyg_proteins_rgcn_for
 
 import main_dgl_citation_sage_nn
 import main_dgl_reddit_sage_nn
@@ -81,11 +81,11 @@ if __name__ == "__main__":
         main_dgl_proteins_rgcn_for.main,
         main_dgl_reddit_gat.main,
         main_dgl_reddit_sage.main,
-        main_pyg_arxiv_gat.main,
-        main_pyg_arxiv_sage.main,
-        main_pyg_citation_gat.main,
-        main_pyg_citation_sage.main,
-        main_pyg_product_sage.main,
+        # main_pyg_arxiv_gat.main,
+        # main_pyg_arxiv_sage.main,
+        # main_pyg_citation_gat.main,
+        # main_pyg_citation_sage.main,
+        # main_pyg_product_sage.main,
         # main_pyg_proteins_rgcn_for.main, # skip this one since will OOM
     ]
     ret_dict = {}
